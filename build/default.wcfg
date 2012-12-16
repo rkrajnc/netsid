@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/alex/workspace/NetSID-papilio/build/netsid_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="netsid_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/netsid_tb/uut/usb_rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">usb_rxd</obj_property>
+      <obj_property name="ObjectShortName">usb_rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/usb_txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">usb_txd</obj_property>
+      <obj_property name="ObjectShortName">usb_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/tx_half_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_half_full</obj_property>
+      <obj_property name="ObjectShortName">tx_half_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/tx_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_full</obj_property>
+      <obj_property name="ObjectShortName">tx_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/tx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/rx_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_full</obj_property>
+      <obj_property name="ObjectShortName">rx_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/rx_half_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_half_full</obj_property>
+      <obj_property name="ObjectShortName">rx_half_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/write_to_uart" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_to_uart</obj_property>
+      <obj_property name="ObjectShortName">write_to_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/rx_data_present" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data_present</obj_property>
+      <obj_property name="ObjectShortName">rx_data_present</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/en_16_x_baud" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_16_x_baud</obj_property>
+      <obj_property name="ObjectShortName">en_16_x_baud</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/stsidnow" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stsidnow</obj_property>
+      <obj_property name="ObjectShortName">stsidnow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/stsidnext" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stsidnext</obj_property>
+      <obj_property name="ObjectShortName">stsidnext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/cycle_cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cycle_cnt[20:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_cnt[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/clk_div" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_div[4:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_div[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/clk01" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk01</obj_property>
+      <obj_property name="ObjectShortName">clk01</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/clk04" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk04</obj_property>
+      <obj_property name="ObjectShortName">clk04</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/clk32" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk32</obj_property>
+      <obj_property name="ObjectShortName">clk32</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/sid_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sid_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sid_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/sid_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sid_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sid_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/sid_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sid_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sid_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/sid_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sid_we</obj_property>
+      <obj_property name="ObjectShortName">sid_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/nrxdp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nrxdp</obj_property>
+      <obj_property name="ObjectShortName">nrxdp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/fifo_empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/ram_ai" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_ai[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_ai[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/ram_ao" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_ao[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_ao[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/ram_do" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_do[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_do[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/netsid_tb/uut/buf_full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_full</obj_property>
+      <obj_property name="ObjectShortName">buf_full</obj_property>
+   </wvobject>
+</wave_config>
